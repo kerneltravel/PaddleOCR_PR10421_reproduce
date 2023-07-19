@@ -4,11 +4,11 @@
 2. windows git shell command line
 
 ### software env:
-python                    3.8 64 bit
-paddleocr                 2.6.1.3
-paddlepaddle              2.5.0
-pyinstaller               5.13.0
-pyinstaller-hooks-contrib 2023.5
+1. python                    3.8 64 bit
+2. paddleocr                 2.6.1.3
+3. paddlepaddle              2.5.0
+4. pyinstaller               5.13.0
+5. pyinstaller-hooks-contrib 2023.5
 
 ### how to reproduce issue mentioned by PR https://github.com/PaddlePaddle/PaddleOCR/pull/10421
 ```
