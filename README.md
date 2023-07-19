@@ -1,7 +1,7 @@
 ## my env
 ### system env:
-win 10 64 bit
-windows git shell command line
+1. win 10 64 bit
+2. windows git shell command line
 
 ### software env:
 python                    3.8 64 bit
