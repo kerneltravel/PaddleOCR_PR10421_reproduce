@@ -15,7 +15,7 @@
 $ python -m pip install -r requirements.txt
 $ python to_exe.py
 $ cd dist
-$ cd main.exe
+$ ./main.exe
 ```
 
 ```
