@@ -14,6 +14,7 @@
 ```
 $ git clone https://github.com/kerneltravel/PaddleOCR_PR10421_reproduce
 $ cd PaddleOCR_PR10421_reproduce
+$ git checkout -f c8b4906  # issue exist until this commit: c8b4906
 $ python -m pip install -r requirements.txt
 $ python to_exe.py
 $ cd dist
