@@ -12,6 +12,8 @@
 
 ### how to reproduce issue mentioned by PR https://github.com/PaddlePaddle/PaddleOCR/pull/10421
 ```
+$ git clone https://github.com/kerneltravel/PaddleOCR_PR10421_reproduce
+$ cd PaddleOCR_PR10421_reproduce
 $ python -m pip install -r requirements.txt
 $ python to_exe.py
 $ cd dist
