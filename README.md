@@ -39,12 +39,16 @@ ModuleNotFoundError: No module named 'tools'
 cd /path/to/python/Lib/site-packages/
 rm -rf paddleocr
 git clone https://github.com/kerneltravel/PaddleOCR_Lib_site-packages_paddleocr_fixed  paddleocr
+cd paddleocr
+git checkout -f  fix-issue-root-cause    # NOTE: the branch fix-issue-root-cause fix two lines of paddleOCR code that import module but not use module,which will cause pyinstall miss packaging those modules  into output binarys, at exe runtime will throw error: Lib\site-packages\paddleocr\ppocr\utils\utility.py line 17: moudule not found: imghdr.
 ```
 
 2. cd to_exe.py's directory 
 3. 
 ```
-rm -rf  dist/ 
+git checkout -f 7ccfed3  # NOTE: this 7ccfed3 commit fix the to_exe.py file: add -- parameter to pyinstall, so the ablow ModuleNotFoundError: No module named 'tools' error was fixed.
+
+rm -rf  dist/
 ```
 4. 
 ```
