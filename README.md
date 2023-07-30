@@ -46,7 +46,7 @@ git checkout -f  fix-issue-root-cause    # NOTE: the branch fix-issue-root-cause
 2. cd to_exe.py's directory 
 3. 
 ```
-git checkout -f 7ccfed3  # NOTE: this 7ccfed3 commit fix the to_exe.py file: add -- parameter to pyinstall, so the ablow ModuleNotFoundError: No module named 'tools' error was fixed.
+git checkout -f 7ccfed3  # NOTE: this 7ccfed3 commit fix the to_exe.py file: add "--collect-all paddleocr" as parameter to pyinstall, so the ablow ModuleNotFoundError: No module named 'tools' error was fixed.
 
 rm -rf  dist/
 ```
